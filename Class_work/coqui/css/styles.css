@@ -1,4 +1,17 @@
 body {
 	background: black;
 	color: white;
+	margin: 16px;
+	padding: 16px;
+	text-align: center;
+
+}
+a { 
+ 	border: 2px dotted blue;
+ 	padding: 10;
+ 	margin: 10px;
+ 	color: white;
+}
+h1 {
+
 }
