@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 800px;
+}
+
+.container {
+  margin: 10px;
+  display: flex;
+
+}
+.box  {
+  background: lightgray;
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+.box-one {
+	height: 100px;
+	width:  200px;
+	
+}
+.tiny {
+	height: 40px;
+	width:  100px;
+  align-items: center;
+}
+.header-container {
+	display: flex;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 2;
+}
+.main {
+  flex-basis: 1;
+  height: 300px;
+}
+.pre-3 {
+  height: 150px;
+  flex-grow: 2;
+}
+.previews {
+  display: flex;
+}
+footer {
+  height: 150px;
+}
+.top {
+  flex-basis: 1;
+  height: 150px;
+}
