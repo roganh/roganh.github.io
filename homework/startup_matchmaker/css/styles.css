@@ -60,14 +60,16 @@ h2 {
 }
 .image-section {
 	display: flex;
-	background-image: url("img/coworking.jpg");
+	background-image: url("../img/coworking.jpg");
 	background-color: #B76325;
 	height: 600px;
 	justify-content: flex-end;
 	align-items: center;
+	background-size: cover;
+	background-position: center;
 }
 .match-box {
-	background:rgba(255,255,255, 0.3);
+	background:rgba(255,255,255, 0.5);
 	padding: 15px;
 	flex-grow: .2;
 	display: flex;
