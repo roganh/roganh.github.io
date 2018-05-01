@@ -17,20 +17,18 @@
 // When I click on an opened row
 // I expect the text to disappear more slowly than how it appeared
 
-//FIND!!!
+$(".row").click(function(event) {
+  $(event.currentTarget).find(".wrapper").slideToggle();
+});
 
-$(".row").click(show)
+// extra credit:
 
-function show(event) {
+// $(".row").click(function(event) {
+//   var wrapper = $(event.currentTarget).find(".wrapper");
 
-	var wrapper = $(event.currentTarget).find(".wrapper");
-	
-	if(wrapper.is(":visible")) {
-		wrapper.slideUp("show");
-	} else {
-		wrapper.slideDown();
-
-	}
-} 
-
-//Close
+//   if(wrapper.is(":visible")) {
+//     wrapper.slideUp("slow");
+//   } else {
+//     wrapper.slideDown("fast");
+//   }
+// });

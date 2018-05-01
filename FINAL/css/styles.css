@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  width: 800px;
+  background: url(../img/roadside_chicken.jpg) center center no-repeat;
+}
+
+h1 {
+  padding-right: 25px;
+  margin: 0, 55px;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+.mid {
+  display: flex;
+  width: 100%;
+
+}
+
+.options {
+  display: inline-block;
+  flex-grow: 3;
+  justify-content: space-around;
+  width: 90%;
+}
