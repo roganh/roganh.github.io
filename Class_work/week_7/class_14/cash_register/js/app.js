@@ -13,28 +13,28 @@
 //or cash register homework: remember that a `<tr>` needs to 
 //have a `<td>` inside of it in order to show properly!
 
+//define total (global)
+var total = $("#total").val();
+
 $("#entry").submit(update);
 
 function update(event) {
-event.preventDefault();
+	event.preventDefault();
+	//store input
+	var value = $("#newEntry").val();
+	//reset to 0
+	$("#total").html(value);
 
-//store input
-var value = $("#newEntry").val();
-//reset to 0
-$("#newEntry").val("");
-//change new amount
-$("#total").html(value);
-
-var new_value = $("#total").val();
-
-//store new total
-var total = $("#total").val();
-//add new total + input
-var new_total = total + new_value;
-//write new sum
-//$("#total").html(new_total);
-console.log(new_total)
+	$("#newEntry").val("");	
+	var new_value = $("#total").val();
+	//add new total + input
+	var new_total = total + new_value;
+	console.log(total);
 }
+
+
+
+
 
 
 

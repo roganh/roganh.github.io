@@ -4,14 +4,15 @@ body, html {
 }
 
 body {
-  width: 800px;
+  width: 100%;
   background: url(../img/roadside_chicken.jpg) center center no-repeat;
 }
 
 h1 {
   padding-right: 25px;
   margin: 0, 55px;
-  justify-content: space-around;
+  font-size: 45px;
+  background-color: #ffffff;
 }
 
 header {
@@ -23,16 +24,25 @@ header {
 a {
   text-decoration: none;
   color: black;
-
-.mid {
-  display: flex;
-  width: 100%;
-
+  margin: 
 }
 
-.options {
-  display: inline-block;
-  flex-grow: 3;
-  justify-content: space-around;
-  width: 90%;
+main {
+  display: flex;
+  height: 75%;
+
+
+}
+.inputs {
+  margin-left: 25px;
+  justify-content: center;
+
+}
+.menu {
+  justify-content: flex-end;
+}
+
+ol {
+  background-color: #ffffff;
+
 }
