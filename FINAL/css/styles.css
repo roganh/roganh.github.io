@@ -21,7 +21,7 @@ header {
   align-items: space-around;
 }
 
-a {
+a  {
   text-decoration: none;
   color: black;
   margin: 
@@ -40,9 +40,28 @@ main {
 }
 .menu {
   justify-content: flex-end;
+  flex-grow: 2;
+  align-items: flex-end;
+  margin-right: 25px;
+  max-width: 600px;
 }
 
-ol {
-  background-color: #ffffff;
-
+ul {
+  background-color: none;
+  text-align: right;
+  list-style-type: none;
+  font-size: 33px;
+  color: white;
+}
+#person-b {
+  display: none;
+}
+select {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgb(204, 204, 204);
+  font-size: 14px;
+  color: #474747;
+  text-align: center;
 }
