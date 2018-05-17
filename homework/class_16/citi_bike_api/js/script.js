@@ -40,11 +40,7 @@ function handler(stations) {
 
  	$("#container").html(info)
 
-
-
- 	
- 	
- }
+}
 
  
 
